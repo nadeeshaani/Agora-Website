@@ -12,7 +12,7 @@
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#a28e6d, #533838);
+    background: linear-gradient(#000000, #576689);
 }
 
 header{
@@ -100,7 +100,7 @@ section img#foreground
 #text
 {
     position: absolute;
-    color: #000000;
+    color: #ffffff;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
