@@ -12,7 +12,7 @@
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de);
+    background: linear-gradient(#a28e6d, #533838);
 }
 
 header{
@@ -71,6 +71,10 @@ section
     width: 100%;
     height: 100vh;
     padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 section img
@@ -86,6 +90,20 @@ section img
 section img#moon
 {
     mix-blend-mode: screen;
+}
+
+section img#foreground
+{
+    z-index: 9;
+}
+
+#text
+{
+    position: absolute;
+    color: #000000;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
 }
 
 
