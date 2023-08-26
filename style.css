@@ -121,6 +121,15 @@ section img#foreground
 
 }
 
+.sec
+{
+    position: relative;
+    padding: 100px;
+    background: #000000;
+    color: white;
+
+}
+
 
 
 
