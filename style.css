@@ -24,6 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 header .logo
@@ -80,6 +81,11 @@ section img
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+section img#moon
+{
+    mix-blend-mode: screen;
 }
 
 
