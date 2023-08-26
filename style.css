@@ -77,6 +77,17 @@ section
 
 }
 
+section::before
+{
+    content: '';
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #000000, transparent);
+    z-index: 1000;
+}
+
 section img
 {
     position: absolute;
@@ -126,8 +137,21 @@ section img#foreground
     position: relative;
     padding: 100px;
     background: #000000;
-    color: white;
 
+
+}
+
+.sec h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.sec p
+{
+    font-size: 1em;
+    color: #ffffff;
 }
 
 
