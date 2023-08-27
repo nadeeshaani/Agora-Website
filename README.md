@@ -4,5 +4,6 @@
 
 #### available at: https://nadeeshanie.github.io/Agora-Website/
  
-![screenshot](https://github.com/nadeeshanie/Agora-Website/assets/90096354/f3c6d5c4-bb84-4a9b-90e2-b968c960213b)
 
+
+![screenshot](https://github.com/nadeeshanie/Agora-Website/assets/90096354/feb87bd7-8893-4f85-8b28-f0407dab8f1e)
