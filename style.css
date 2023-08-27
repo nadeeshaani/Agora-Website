@@ -7,11 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body
 {
     min-height: 100vh;
+    overflow-x: hidden;
     background: linear-gradient(#000000, #576689);
 }
 
@@ -74,6 +76,7 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -112,6 +115,7 @@ section img#foreground
 #text
 {
     position: absolute;
+    right: -350px;
     color: #ffffff;
     white-space: nowrap;
     font-size: 7.5vw;
@@ -129,6 +133,7 @@ section img#foreground
     font-size: 1.5em;
     z-index: 9;
     transform: translateY(100px);
+
 
 }
 
